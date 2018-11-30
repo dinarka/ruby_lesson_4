@@ -20,6 +20,6 @@ else
   todays_day = date if month == 1
 
   todays_day = months[0..month - 2].reduce(:+) + date
-
-  puts "Порядковый номер даты: #{todays_day}"
 end
+
+puts "Порядковый номер даты: #{todays_day}"
